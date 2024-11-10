@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "filename": "text-92FA785B712B-1.txt",
+      "type": "text/plain",
+      "path": "./data/text-92FA785B712B-1.txt",
+      "url": "http://127.0.0.1/images/ext-92FA785B712B-1.txt"
+    },
+    {
+      "filename": "AWS_imp_questions.pdf",
+      "type": "application/pdf",
+      "path": "./data/AWS_imp_questions.pdf",
+      "url": "http://127.0.0.1/images/AWS_imp_questions.pdf"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+Ishitha,
+ 
+Attached is the sources for File server.
+ 
+It has Python Flask backend and ReactJS / Grommet (https://v2.grommet.io/ )
+ 
+The directory “server” has Python code.
+The directory “webapp” has ReactJS code.
+ 
+This is the exercise for you:
+Build and run both backend and front-end.
+Add ability to create directories.
+Add user login (Code exists, you need to uncomment and make necessary changes)
+Build container image with Nginx for web-server.
+Convert from Python Flask to Python FastAPI and build container image.
+ 
+You should finish the first step by end of tomorrow.	
+Call me if you have any questions.
+make rest call to backend,hardcode that data, time series, dashboard.salient feature:http creates socket connection and closes it that has a timeout. u try to upload 1gb file.2 ways-1)u can increase the timeout to hours but if there is connection issue, it should throw an error. Error info will be notified much later. Break a file into chunks, each chunk is going as http request, gib 10 chunks-each chunk will be finished within one minute, still timeout won't matter. More advanced object storage(block storage and object storage). Network file systems. Google drive is an example. oracledb raw data without file systems. Direct block storage. First file system, file info in storage. Just for storing backup. U can access the source from here, container from here.keep only one version exclusively for file server, another for experimentation. Make reshape call to backend using use effect instead of use state. On load if u want to make rest api call to backend. Local variable -usestate. It is a hook, the moment u modify invariable and set. Modify using set function not variable, react will automatically 
+
+
+
+update the page. Fuctuin that can be called remotely. Restapi. Last documentation. Formatting can be done in readme. Upload and download, be able to.
+
+
+
+
+
+I'll help you build a secure file sharing platform. Let's break this down into manageable components and implement them step by step.
+First, let's set up the basic project structure:
+json
+Let's start with the backend implementation:
+First, the Flask backend configuration:
+Initialize the Flask application:
+Define the database models:
+Create utility functions:
+Now, let's implement the routes:
+Now, let's implement the React frontend:
+First, create the API service:
+Create the file upload component:
+Create the file list component:
+Update the main App component:
+This implementation includes:
+Secure authentication using JWT
+File upload with proper validation
+Secure file storage with randomized filenames
+Shareable links using UUIDs
+Real-time file list display
+Cross-origin support
+Error handling throughout the application
+To run the application:
+Backend:
+py
+Frontend:
+start
+Make sure to:
+Set up proper environment variables for production
+Implement rate limiting
+Add file size validation
+Implement file expiration
+Add proper logging
+Set up HTTPS in production
+Regularly backup the database
+Monitor system resources
+Would you like me to explain any specific part in more detail or add additional features?
+secure-file-share/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── routes.py
+│   │   ├── models.py
+│   │   └── utils.py
+│   ├── config.py
+│   ├── requirements.txt
+│   └── run.py
+└── frontend/
+    ├── public/
+    ├── src/
+    │   ├── components/
+    │   ├── services/
+    │   └── App.js
+    └── package.json
+
+Backend:
+cd backend
+pip install -r requirements.txt
+python run.py
+
+Frontend:
+cd frontend
+npm install
+npm start
+
