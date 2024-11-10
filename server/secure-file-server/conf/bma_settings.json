@@ -1,0 +1,9 @@
+{
+  "ov_certs_path": "conf/certs",
+  "temp_dir": "/tmp",
+  "ks_basedir": "kickstarts",
+  "http_server": "local",
+  "local_http_root": "/usr/share/nginx/html/images/",
+  "http_file_server_url": "https://192.168.1.51/images/",
+  "hostname": "192.168.1.51"
+}
