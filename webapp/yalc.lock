@@ -1,0 +1,18 @@
+{
+  "version": "v1",
+  "packages": {
+    "grommet-exp": {
+      "signature": "3df4e356588280b2c72503c89d7dff72",
+      "file": true,
+      "replaced": "https://github.com/grommet/grommet-exp/tarball/stable"
+    },
+    "hpe-design-tokens": {
+      "signature": "0cef4f55b8c0b2c81dfa6ec326916a6c",
+      "file": true
+    },
+    "grommet-exp-theme": {
+      "signature": "178eca6b0de276521d3df916e3fb8d64",
+      "file": true
+    }
+  }
+}
