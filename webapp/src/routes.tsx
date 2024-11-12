@@ -18,7 +18,7 @@ const routes = [
     element: <Index/>,
   },
   {
-      path: "/ogin",
+      path: "/login",
       element: <Login/>
   }
 
